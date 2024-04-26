@@ -1,0 +1,388 @@
+@font-face {
+  font-family: "Gotham Pro";
+  src: url("css/fonts/gothampro.ttf") format("truetype");
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Abel&family=Montserrat:wght@600&family=Onest:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+* {
+  font-family: "Gotham Pro";
+  color: white;
+}
+
+.abel {
+  font-family: "Abel";
+}
+
+.galochka {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.header__gradient {
+  background: linear-gradient(
+    90.09deg,
+    #9e0b37 0.98%,
+    #ffc531 72.22%,
+    #9e0b37 99.95%
+  );
+  z-index: 999;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 1420px;
+}
+
+@media (max-width: 1420px) {
+  .container {
+    max-width: 100%;
+  }
+}
+
+.mr-10 {
+  margin-right: 42px;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  height: 650px;
+}
+
+.left_block {
+  flex: 0 0 1310px;
+  height: 650px;
+  margin-right: auto;
+  background: linear-gradient(
+      123.33deg,
+      #df5017 4.42%,
+      rgba(223, 80, 23, 0.440343) 22.08%,
+      rgba(223, 80, 23, 0.19) 35.36%,
+      rgba(223, 80, 23, 0) 52.74%
+    ),
+    linear-gradient(
+      90.01deg,
+      #282533 65.15%,
+      #282533 65.15%,
+      rgba(40, 37, 51, 0.739583) 82.21%,
+      rgba(40, 37, 51, 0) 99.99%
+    );
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  z-index: 1;
+  margin-right: 30%;
+}
+
+.left_block h1 {
+  margin-left: 192px;
+  margin-bottom: 102px;
+}
+
+.title {
+  color: white;
+  font-weight: 600;
+  font-size: 50px;
+  line-height: 120%;
+  text-transform: uppercase;
+  z-index: 2;
+}
+
+.background_container {
+  background: rgba(23, 20, 34, 1);
+}
+
+.right_block {
+  position: absolute;
+  right: 0;
+  top: 81px;
+  width: 1070px;
+  height: 640px;
+  z-index: 0;
+}
+
+.right_block img {
+  width: 100%;
+  height: 101.6%;
+  object-fit: cover;
+}
+
+.designcard {
+  font-size: 22px;
+  width: 1180px;
+  height: 152px;
+  margin-right: 20px;
+  background: linear-gradient(
+    90.95deg,
+    #ffa462 0%,
+    #b45350 21.79%,
+    #8a2645 48.93%,
+    #291725 84.55%
+  );
+  text-align: center;
+  display: flex;
+  align-items: center;
+
+  border-radius: 30px;
+}
+
+.designcard p {
+  text-align: left;
+  margin: 40px 50px;
+}
+
+.container2 {
+  margin: 0 auto;
+  max-width: 1420px;
+  padding-top: 100px;
+  height: 300vh;
+}
+
+.card220x220 {
+  position: relative;
+  width: 220px;
+  height: 220px;
+  border-radius: 14.35px;
+  margin-bottom: 10px;
+}
+
+.card-button {
+  border: 2px solid white;
+  border-radius: 23.91px;
+  width: 205px;
+  height: 35px;
+  font-family: Gotham Pro;
+  font-size: 9px;
+  font-weight: 700;
+  line-height: 13px;
+  letter-spacing: 0em;
+  text-align: center;
+  display: flex;
+  align-items: center;
+}
+
+.card-button span {
+  font-family: Gotham Pro;
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 19px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+
+.image_with_button img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.card-text {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 10px;
+  background-color: rgba(0, 0, 0, 0.5); 
+  color: white; 
+}
+
+.image_with_button {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+.circle-button {
+  position: relative;
+
+  box-shadow: 1.91304349899292px 1.91304349899292px 9.565217971801758px 0px
+    rgba(223, 80, 23, 1);
+  background: linear-gradient(91.25deg, #df5017 -4.25%, #f9cb74 108.11%);
+
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 37px;
+  height: 35px;
+}
+
+.space_beetwen {
+  display: flex;
+}
+
+.new_block {
+  height: 62px;
+  border-radius: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+}
+
+.red_number p {
+  font-family: "Gotham Pro", sans-serif;
+  font-size: 183px;
+  font-weight: 700;
+  line-height: 201px;
+  color: transparent; 
+  background: linear-gradient(
+    172.77deg,
+    #8a2645 15.55%,
+    #291725 56.17%,
+    #171422 75.48%
+  );
+
+  -webkit-background-clip: text;
+  background-clip: text;
+  text-align: left;
+}
+
+.imgsone {
+  display: grid;
+  grid-template-columns: repeat(3, 0fr); 
+  gap: 20px 40px; 
+  margin: 0px 0px 40px 40px;
+}
+
+.img-container {
+  width: 268px;
+  height: 62px;
+  border-radius: 12px;
+  background: white; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.img-container img {
+  max-width: 80%; 
+  max-height: 80%;
+  object-fit: cover; 
+}
+
+.abobe {
+  font-family: Gotham Pro;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 31px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin: 198% 0px 40px 40px;
+}
+
+.p2 {
+  font-family: Gotham Pro;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 25px;
+  letter-spacing: 0em;
+  text-align: right;
+  margin-right: 18%;
+}
+
+.p3,
+.p4 {
+  font-size: 22px;
+  line-height: 31px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-left: -40px;
+}
+
+.to-left {
+  font-family: Gotham Pro;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 31px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-left: -57px;
+}
+
+.two_desc {
+  display: flex;
+  align-items: center;
+}
+
+.images_with_rotate {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.p5 {
+  font-family: Gotham Pro;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 31px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-top: 45px;
+  text-align: left;
+}
+
+.p6 {
+  font-family: Gotham Pro;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 31px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-top: 45px;
+  text-align: left;
+}
+
+.strelki_with_cirles {
+  position: relative; 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.strelki,
+.podstrelki {
+  position: absolute; 
+}
+
+.strelki {
+  z-index: 1; 
+}
+
+.strelki {
+  transform: translate(141px, 60px);
+}
+.podstrelki {
+  transform: translate(145px, 160px);
+}
+
+.examples {
+  display: flex;
+  margin-top: 14rem;
+}
+
+.left-side {
+  display: flex;
+}
+
+.right-side {
+  margin-left: 9rem;
+}
+
+.more_left {
+  margin-left: -50px;
+}
+
+.slider1 {
+  display: flex;
+  margin-bottom: 20px;
+}
+.slider1 img {
+  margin-right: 20px;
+  border-radius: 20px;
+  width: 405px;
+  height: 280px;
+}
